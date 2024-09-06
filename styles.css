@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-header {
+.navigation {
     background: #333;
     color: #fff;
     padding: 20px 0;
@@ -19,7 +19,7 @@ header {
     height: 100vh;
 }
 
-.header-image {
+.navigation-image {
     /* max-width: 100%; */
     height: 75vh;
     display: block;
@@ -36,21 +36,21 @@ header {
     border-radius: 10px;
 }
 
-header h1 {
+.navigation h1 {
     margin-bottom: 10px;
 }
 
-header nav ul {
+.navigation nav ul {
     list-style: none;
     text-align: center;
 }
 
-header nav ul li {
+.navigation nav ul li {
     display: inline;
     margin: 0 15px;
 }
 
-header nav ul li a {
+.navigation nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -85,38 +85,38 @@ header nav ul li a {
     background: #ff4c4c;
 }
 
-section {
+.section {
     padding: 40px 0;
     text-align: center;
 }
 
-section h2 {
+.section h2 {
     font-size: 28px;
     margin-bottom: 20px;
 }
 
-section p {
+.section p {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-footer {
+.copyright {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
-footer p {
+.copyright p {
     margin: 0;
 }
 
-footer a {
+.copyright a {
     color: #ff6b6b;
     text-decoration: none;
 }
 
-footer a:hover {
+.copyright a:hover {
     text-decoration: underline;
 }
 
